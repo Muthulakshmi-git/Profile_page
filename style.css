@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+    background-color: #0C0123;
+    border-radius: 20px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 3%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #0C0123;
+}
+
+#navbar__right {
+    display: flex;
+    gap: 15px;
+    font-size: x-small;
+    color: white;
+    cursor: pointer;
+}
+
+#navbar__left {
+    color: yellow;
+    font-weight: 800;
+    font-size: larger;
+}
+
+#navbar__right h3:hover {
+    border-bottom: solid yellow 2px;
+    color: yellow;
+}
+
+@media screen and (min-width:700px) {
+    #navbar {
+        margin: 2% 3%;
+    }
+
+    #navbar__right {
+        font-size: large;
+        gap: 30px;
+        font-weight: 600;
+    }
+
+    #navbar__left {
+        font-size: 30px;
+    }
+
+}
+
+#container-my {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    margin: 10% 10%;
+}
+
+#my__pic img {
+    width: 300px;
+    border-radius: 100px;
+}
+
+#my__desc h1 {
+    display: inline;
+    font-size: 20px;
+}
+
+#my__desc h6 {
+    font-size: 10px;
+}
+
+#my__desc p {
+    font-size: 14px;
+}
+
+@media screen and (min-width:700px) {
+    #container-my {
+        gap: 20%;
+        margin-top: 9%;
+        margin-bottom: 10%;
+    }
+
+    #my__desc h1 {
+        display: inline;
+        font-size: 50px;
+    }
+
+    #my__desc h6 {
+        font-size: 20px;
+    }
+
+    #my__desc p {
+        font-size: 24px;
+    }
+
+}
+
+#about {
+    margin: 20% 10% 0 10%;
+}
+
+#about__right h1 {
+    display: inline;
+    font-size: 25px;
+}
+
+#about__right p {
+    font-size: 13px;
+}
+
+#about__right {
+    margin-top: 10%;
+
+}
+
+#about__left p {
+    font-size: 14px;
+}
+
+#about__left {
+    padding: 5px;
+    margin-bottom: 30px;
+    border: solid black 1px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+#about__left:focus{
+    border: none;
+    outline: none;
+}
+
+#insta,
+#linkedin,
+#git,
+#whatsapp {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@media screen and (min-width:700px) {
+    #about {
+        display: flex;
+        gap: 10%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    #about__right h1 {
+        display: inline;
+        font-size: 30px;
+    }
+
+    #about__right p {
+        font-size: 13px;
+    }
+
+    #about__right {
+        margin-top: 5%;
+
+    }
+
+    #about__left p {
+        font-size: 18px;
+    }
+
+    #about__left {
+        width: 3000px;
+        margin-bottom: 30px;
+        border: none;
+    }
+
+    #insta {
+        margin-left: 15% !important;
+    }
+
+}
+
+#projects {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#projects__items img {
+    width: 180px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#projects__title {
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+
+#projects__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+@media screen and (min-width:700px) {
+    #projects {
+        margin-top: 5%;
+    }
+
+    #projects__items img {
+        width: 200px;
+    }
+
+    #projects__title {
+        font-size: 35px;
+    }
+
+}
+
+#techskills__title {
+    font-size: 25px;
+}
+
+#techskills {
+    margin: 5% 10%;
+}
+
+#techskills__desc {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+@media screen and (min-width:600px) {
+    #techskills__title {
+        font-size: 35px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:900px) {
+    #techskills__desc1,
+    #techskills__desc2,
+    #techskills__desc3,
+    #techskills__desc4,
+    #techskills__desc5,
+    #techskills__desc6 {
+       width: 130px;
+    }
+}
