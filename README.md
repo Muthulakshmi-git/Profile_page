@@ -17,7 +17,7 @@ This is a simple and clean Personal Profile Webpage created using HTML and CSS.
 
 🛠️ Some of my Projects
 
-Live - [  ]
+Live - [ https://muthulakshmi-git.github.io/Profile_page/ ]
 The page is fully responsive and designed to give a quick overview of who I am and what I do.
 
 It’s a small step in building my personal brand and practicing front-end development.
