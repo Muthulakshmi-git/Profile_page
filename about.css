@@ -1,0 +1,19 @@
+#about img{
+    width: 100px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+#about__left{
+    padding: 20px;
+}
+@media screen and (min-width:700px) {
+    #about img{
+        width: 1500px;
+        margin-left: -50px;
+    }
+    #about{
+        align-items: center;
+    }
+}
+

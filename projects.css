@@ -1,0 +1,11 @@
+#about img{
+    margin-left: 130px;
+}
+@media  screen and (min-width:700px) {
+    #about img{
+        width: 800px;
+        margin-left: -20px;
+        border-radius: 100px;
+    }
+    
+}
